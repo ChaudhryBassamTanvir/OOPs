@@ -29,6 +29,9 @@ class Student{
         this.name=s2.name;
         this.age=s2.age;
     }
+    Student(){
+
+    }
 
 public void printinfo(){
  System.out.println(this.name);
@@ -39,7 +42,14 @@ public void printinfo(){
 public class OOPs{
 public static void main(String[] args) {
 
+Student s1 = new Student();
 
+s1.name="Bassam";
+s1.age=21;
+
+
+Student s2 = new Student(s1);
+s2.printinfo();
 
 }
 }
