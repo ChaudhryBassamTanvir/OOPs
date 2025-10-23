@@ -8,6 +8,10 @@ public void write(){
     System.out.println("Writing " + "color "+ color);
 }
 
+public void printColor(){
+    System.out.println(this.color);
+
+}
 
 
 }
@@ -18,5 +22,15 @@ public static void main(String[] args) {
     pen1.type="gel";
 
     pen1.write();
+
+
+    Pen pen2 = new Pen();
+    pen2.color="Black";
+    pen2.type="ballpoint"; 
+
+
+    
+    pen2.printColor();
+    pen1.printColor();
 }
 }
