@@ -1,4 +1,4 @@
-class Student{
+ class Student{
     String name;
     int age;
 //polymorphism
@@ -9,9 +9,10 @@ public void printInfo(String name){
 public void printInfo(int age){
      System.out.println(age);
 }
-public void printInfo(String name ,int age){
-     System.out.println(name+" "+ age);
+public void printInfo(String name, int age) {
+    System.out.println(name + " " + age);
 }
+
 
 }
 
@@ -28,9 +29,8 @@ s1.name="Bassam";
 s1.age=21;
 //function overloading
 //parameters or return type  must be different
-s1.printInfo(s1.age);
-s1.printInfo("Bassam");
-s1.printInfo("Bassam",21);
+
+s1.printInfo(s1.name,s1.age);
 
 
     }
