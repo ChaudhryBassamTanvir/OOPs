@@ -1,7 +1,7 @@
 abstract class Animal{
-    public void walk(){
+   abstract public void walk();
 //no need to show this to user
-    }
+    
 }
 class Horse extends Animal{
     public void walk(){
