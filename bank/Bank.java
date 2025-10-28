@@ -1,4 +1,6 @@
 package bank;
+//we make this package same as we import java.util.*; same we can use this in any other file 
+
 class Account{
     public String name;
     protected String email;
